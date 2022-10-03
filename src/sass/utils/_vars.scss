@@ -1,0 +1,25 @@
+// Colors
+$accentColor: #d41443;
+$secondaryAccentColor: #ffa5ba;
+$textColor: #000000;
+$secondaryTextColor: #907e82;
+
+// bg colors
+$primaryBgColor: #ffffff;
+$secondaryBgColor: #fff5f6;
+$heroBgColor: #ffb8ca;
+$elementBgColor--first: #f0d1a5;
+$elementBgColor--second: #c2e297;
+
+$focusBgColor: #ecebeb;
+
+// Transitions
+$durationTransition: 250ms;
+$animationTransition: cubic-bezier(0.4, 0, 0.2, 1);
+
+//break point
+$minMobWidth: 320px;
+$maxMobWidth: 767px;
+$minTabletWidth: 768px;
+$maxTabletWidth: 1199px;
+$minDeskWidth: 1200px;

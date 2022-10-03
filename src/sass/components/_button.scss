@@ -1,0 +1,49 @@
+.button {
+  padding: 12px 36px;
+
+  border: 0;
+  border-radius: 22px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28;
+
+  cursor: pointer;
+
+  @media screen and (min-width: $minTabletWidth) {
+    font-size: 16px;
+  }
+}
+.button--dark {
+  color: $primaryBgColor;
+  background-color: $accentColor;
+}
+
+.button--light {
+  color: $accentColor;
+  background-color: $primaryBgColor;
+  @include transitioned(background-color);
+  
+  &:hover,
+  &:focus {
+    background-color: $focusBgColor;
+  }
+}
+
+.button--centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__icon {
+  stroke: $accentColor;
+  margin-left: 12px;
+
+  width: 7px;
+  height: 10px;
+}
+
+.button__icon--light {
+  stroke: $primaryBgColor;
+}

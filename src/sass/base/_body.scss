@@ -1,0 +1,14 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.76;
+    
+    color: $textColor;
+    background-color: $primaryBgColor;
+
+    @media screen and (min-width: $minTabletWidth) {
+        font-size: 14px;
+    }
+}
